@@ -2,8 +2,7 @@
 
 This project uses AWS Lambda and Kinesis technologies to stream finance data with "yfinance" python package. The data from streaming is saved in AWS s3, and then is analyzed with AWS Athena in SQL query.
 
-The streamed data is stored in s3 bucket below. Also, the same dataset is saved in finance_data subfolder.
-`s3://delivery-test-9705/2020/05/20/15/`
+The streamed data is stored in s3 bucket `s3://delivery-test-9705/2020/05/20/15/`. Also, the same dataset is saved in finance_data subfolder.
 
 The python code used in AWS Lambda is saved in data_collector.py, and its configuration page is below. The lambda function trigger URL is: `https://30kp0rksp3.execute-api.us-east-2.amazonaws.com/default/yfinance-lambda`. But as I use dependence in the lambda function, the URL trigger will timeout, so current it only uses "test" function to trigger the stream.
 
