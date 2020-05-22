@@ -12,12 +12,12 @@ The python code used in AWS Lambda is saved in data_collector.py, and its config
 The SQL query used in Athena is saved in "query.sql" to get hourly high for each stocks, and the query results are saved in "results.csv".
 
 ## AWS Lambda Configuration Page.
-![notebook](https://github.com/SherlockZhang/Streaming-Finance-Data-with-AWS-Lambda-Kinesis/blob/master/assets/lambda-config.png?raw=true)
+![notebook](https://github.com/SherlockZhang/Streaming-Finance-Data-with-AWS-Lambda-Kinesis/blob/master/asset/lambda-config.png?raw=true)
 
 The "Monitoring" page for Kinesis is below:
 ## Kinesis Monitoring Page
 ![notebook](https://github.com/SherlockZhang/Streaming-Finance-Data-with-AWS-Lambda-Kinesis/blob/master/asset/kinesis-0.png?raw=true)
 
-![notebook](https://github.com/SherlockZhang/Streaming-Finance-Data-with-AWS-Lambda-Kinesis/blob/master/assets/kinesis-1.png?raw=true)
+![notebook](https://github.com/SherlockZhang/Streaming-Finance-Data-with-AWS-Lambda-Kinesis/blob/master/asset/kinesis-1.png?raw=true)
 
-![notebook](https://github.com/SherlockZhang/Streaming-Finance-Data-with-AWS-Lambda-Kinesis/blob/master/assets/kinesis-2.png?raw=true)
+![notebook](https://github.com/SherlockZhang/Streaming-Finance-Data-with-AWS-Lambda-Kinesis/blob/master/asset/kinesis-2.png?raw=true)
