@@ -10,6 +10,9 @@ The python code used in AWS Lambda is saved in data_collector.py, and its config
 
 The SQL query used in Athena is saved in "query.sql" to get hourly high for each stocks, and the query results are saved in "results.csv".
 
+## Extra Credit file
+The visualization of results.csv for extra credit is saved in "Analysis.ipynb".
+
 ## AWS Lambda Configuration Page.
 ![notebook](https://github.com/SherlockZhang/Streaming-Finance-Data-with-AWS-Lambda-Kinesis/blob/master/asset/lambda-config.png?raw=true)
 
